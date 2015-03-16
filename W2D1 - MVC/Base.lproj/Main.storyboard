@@ -21,6 +21,9 @@
                                 <state key="normal" title="Random Singer">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="randomButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="um0-yt-4tV"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="X1K-AU-hmc">
                                 <rect key="frame" x="189" y="101" width="222" height="225"/>
@@ -29,16 +32,32 @@
                                     <constraint firstAttribute="width" constant="222" id="eu6-EH-eeh"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGr-eb-lyR">
+                                <rect key="frame" x="279" y="360" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eVM-dT-dCV">
+                                <rect key="frame" x="162" y="28" width="300" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="X1K-AU-hmc" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="81" id="28L-0Z-cnt"/>
+                            <constraint firstItem="FGr-eb-lyR" firstAttribute="top" secondItem="X1K-AU-hmc" secondAttribute="bottom" constant="34" id="6RN-fx-xy4"/>
                             <constraint firstAttribute="centerX" secondItem="YSL-yV-e1M" secondAttribute="centerX" id="7Om-UA-7UF"/>
                             <constraint firstAttribute="centerX" secondItem="X1K-AU-hmc" secondAttribute="centerX" id="M7J-xk-bU4"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="YSL-yV-e1M" secondAttribute="bottom" constant="84" id="sky-J6-rxM"/>
                             <constraint firstItem="YSL-yV-e1M" firstAttribute="top" secondItem="X1K-AU-hmc" secondAttribute="bottom" constant="160" id="xjt-JZ-hjL"/>
+                            <constraint firstAttribute="centerX" secondItem="FGr-eb-lyR" secondAttribute="centerX" id="zDj-pl-Wkw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="X1K-AU-hmc" id="sRE-Ji-Vxj"/>
+                        <outlet property="singerName" destination="FGr-eb-lyR" id="Ve1-6W-dB1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

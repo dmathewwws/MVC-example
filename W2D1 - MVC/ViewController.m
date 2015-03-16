@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "RecordLabel.h"
+#import "Singer.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UILabel *singerName;
 
 @end
 
@@ -22,6 +26,17 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)randomButtonPressed:(id)sender {
+
+    int randomNumber = arc4random() % [RecordLabel listofSingers].count;
+    
+    Singer *aSinger = [RecordLabel listofSingers][randomNumber];
+    
+    self.imageView.image = aSinger.image;
+    self.singerName.text = aSinger.name;
+    
 }
 
 @end
