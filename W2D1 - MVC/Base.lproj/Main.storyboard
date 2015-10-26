@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D98g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8121.17" systemVersion="15A204h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,16 +18,18 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSL-yV-e1M">
-                                <rect key="frame" x="247" y="486" width="107" height="30"/>
+                                <rect key="frame" x="248" y="486" width="105" height="30"/>
+                                <animations/>
                                 <state key="normal" title="Random Singer">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="randomButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="um0-yt-4tV"/>
+                                    <action selector="randomSingerPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XmJ-DH-78O"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="X1K-AU-hmc">
                                 <rect key="frame" x="189" y="101" width="222" height="225"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="225" id="V9a-YE-BQ0"/>
                                     <constraint firstAttribute="width" constant="222" id="eu6-EH-eeh"/>
@@ -34,15 +37,13 @@
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGr-eb-lyR">
                                 <rect key="frame" x="279" y="360" width="42" height="21"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eVM-dT-dCV">
-                                <rect key="frame" x="162" y="28" width="300" height="300"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="X1K-AU-hmc" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="81" id="28L-0Z-cnt"/>
@@ -55,8 +56,8 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="X1K-AU-hmc" id="sRE-Ji-Vxj"/>
-                        <outlet property="singerName" destination="FGr-eb-lyR" id="Ve1-6W-dB1"/>
+                        <outlet property="imageView" destination="X1K-AU-hmc" id="pJm-JV-HpB"/>
+                        <outlet property="singerName" destination="FGr-eb-lyR" id="aFX-fC-iPg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

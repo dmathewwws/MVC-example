@@ -21,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -28,15 +29,15 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)randomButtonPressed:(id)sender {
-
-    int randomNumber = arc4random() % [RecordLabel listofSingers].count;
+- (IBAction)randomSingerPressed:(UIButton *)sender {
     
-    Singer *aSinger = [RecordLabel listofSingers][randomNumber];
+    int randomNumber = arc4random() % [RecordLabel listOfSingers].count;
+    
+    Singer *aSinger = [RecordLabel listOfSingers][randomNumber];
     
     self.imageView.image = aSinger.image;
     self.singerName.text = aSinger.name;
-    
 }
+
 
 @end

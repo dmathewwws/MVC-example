@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF294B9A1AB738D9001403A8 /* Singer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF294B991AB738D9001403A8 /* Singer.m */; };
-		AF294B9D1AB739E3001403A8 /* RecordLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF294B9C1AB739E3001403A8 /* RecordLabel.m */; };
+		125656B71B4ADFA100852A3C /* Singer.m in Sources */ = {isa = PBXBuildFile; fileRef = 125656B61B4ADFA100852A3C /* Singer.m */; };
+		125656BA1B4AE07200852A3C /* RecordLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 125656B91B4AE07200852A3C /* RecordLabel.m */; };
 		AFE8CDEF1AB69ECF005AF387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8CDEE1AB69ECF005AF387 /* main.m */; };
 		AFE8CDF21AB69ECF005AF387 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8CDF11AB69ECF005AF387 /* AppDelegate.m */; };
 		AFE8CDF51AB69ECF005AF387 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8CDF41AB69ECF005AF387 /* ViewController.m */; };
@@ -29,10 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF294B981AB738D9001403A8 /* Singer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singer.h; sourceTree = "<group>"; };
-		AF294B991AB738D9001403A8 /* Singer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singer.m; sourceTree = "<group>"; };
-		AF294B9B1AB739E3001403A8 /* RecordLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordLabel.h; sourceTree = "<group>"; };
-		AF294B9C1AB739E3001403A8 /* RecordLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordLabel.m; sourceTree = "<group>"; };
+		125656B51B4ADFA100852A3C /* Singer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singer.h; sourceTree = "<group>"; };
+		125656B61B4ADFA100852A3C /* Singer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singer.m; sourceTree = "<group>"; };
+		125656B81B4AE07200852A3C /* RecordLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordLabel.h; sourceTree = "<group>"; };
+		125656B91B4AE07200852A3C /* RecordLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordLabel.m; sourceTree = "<group>"; };
 		AFE8CDE91AB69ECF005AF387 /* W2D1 - MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W2D1 - MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE8CDED1AB69ECF005AF387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFE8CDEE1AB69ECF005AF387 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,10 +91,10 @@
 				AFE8CDF11AB69ECF005AF387 /* AppDelegate.m */,
 				AFE8CDF31AB69ECF005AF387 /* ViewController.h */,
 				AFE8CDF41AB69ECF005AF387 /* ViewController.m */,
-				AF294B981AB738D9001403A8 /* Singer.h */,
-				AF294B991AB738D9001403A8 /* Singer.m */,
-				AF294B9B1AB739E3001403A8 /* RecordLabel.h */,
-				AF294B9C1AB739E3001403A8 /* RecordLabel.m */,
+				125656B51B4ADFA100852A3C /* Singer.h */,
+				125656B61B4ADFA100852A3C /* Singer.m */,
+				125656B81B4AE07200852A3C /* RecordLabel.h */,
+				125656B91B4AE07200852A3C /* RecordLabel.m */,
 				AFE8CDF61AB69ECF005AF387 /* Main.storyboard */,
 				AFE8CDF91AB69ECF005AF387 /* Images.xcassets */,
 				AFE8CDFB1AB69ECF005AF387 /* LaunchScreen.xib */,
@@ -232,8 +232,8 @@
 				AFE8CDF51AB69ECF005AF387 /* ViewController.m in Sources */,
 				AFE8CDF21AB69ECF005AF387 /* AppDelegate.m in Sources */,
 				AFE8CDEF1AB69ECF005AF387 /* main.m in Sources */,
-				AF294B9A1AB738D9001403A8 /* Singer.m in Sources */,
-				AF294B9D1AB739E3001403A8 /* RecordLabel.m in Sources */,
+				125656B71B4ADFA100852A3C /* Singer.m in Sources */,
+				125656BA1B4AE07200852A3C /* RecordLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
