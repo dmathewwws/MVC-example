@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1238ADD11EE5BAE1005CD352 /* Singer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238ADD01EE5BAE1005CD352 /* Singer.m */; };
+		1238ADD41EE5BBBF005CD352 /* RecordLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238ADD31EE5BBBF005CD352 /* RecordLabel.m */; };
 		AFE8CDEF1AB69ECF005AF387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8CDEE1AB69ECF005AF387 /* main.m */; };
 		AFE8CDF21AB69ECF005AF387 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8CDF11AB69ECF005AF387 /* AppDelegate.m */; };
 		AFE8CDF51AB69ECF005AF387 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE8CDF41AB69ECF005AF387 /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1238ADCF1EE5BAE1005CD352 /* Singer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singer.h; sourceTree = "<group>"; };
+		1238ADD01EE5BAE1005CD352 /* Singer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singer.m; sourceTree = "<group>"; };
+		1238ADD21EE5BBBF005CD352 /* RecordLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordLabel.h; sourceTree = "<group>"; };
+		1238ADD31EE5BBBF005CD352 /* RecordLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordLabel.m; sourceTree = "<group>"; };
 		AFE8CDE91AB69ECF005AF387 /* W2D1 - MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "W2D1 - MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE8CDED1AB69ECF005AF387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFE8CDEE1AB69ECF005AF387 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +89,10 @@
 			children = (
 				AFE8CDF01AB69ECF005AF387 /* AppDelegate.h */,
 				AFE8CDF11AB69ECF005AF387 /* AppDelegate.m */,
+				1238ADCF1EE5BAE1005CD352 /* Singer.h */,
+				1238ADD01EE5BAE1005CD352 /* Singer.m */,
+				1238ADD21EE5BBBF005CD352 /* RecordLabel.h */,
+				1238ADD31EE5BBBF005CD352 /* RecordLabel.m */,
 				AFE8CDF31AB69ECF005AF387 /* ViewController.h */,
 				AFE8CDF41AB69ECF005AF387 /* ViewController.m */,
 				AFE8CDF61AB69ECF005AF387 /* Main.storyboard */,
@@ -222,6 +232,8 @@
 				AFE8CDF51AB69ECF005AF387 /* ViewController.m in Sources */,
 				AFE8CDF21AB69ECF005AF387 /* AppDelegate.m in Sources */,
 				AFE8CDEF1AB69ECF005AF387 /* main.m in Sources */,
+				1238ADD11EE5BAE1005CD352 /* Singer.m in Sources */,
+				1238ADD41EE5BBBF005CD352 /* RecordLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
